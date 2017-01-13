@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">练习</string>
+
+    <!-- 一级联动 -->
+    <string-array name="first">
+        <item>书籍</item>
+        <item>国家</item>
+    </string-array>
+
+
+    <!-- 二级联动 -->
+    <string-array name="books">
+        <item>文学</item>
+        <item>计算机</item>
+    </string-array>
+
+    <string-array name="country">
+        <item>亚洲</item>
+        <item>欧洲</item>
+    </string-array>
+
+
+    <!-- 三级联动 -->
+    <string-array name="literature">
+        <item>《呐喊》</item>
+        <item>《彷徨》</item>
+        <item>《夜》</item>
+    </string-array>
+    <string-array name="computer">
+        <item>《第一行代码》</item>
+        <item>《Java编程》</item>
+        <item>《论程序猿的自我修养》</item>
+    </string-array>
+    <string-array name="asia">
+        <item>中国</item>
+        <item>日本</item>
+        <item>韩国</item>
+        <item>马来西亚</item>
+    </string-array>
+    <string-array name="europe">
+        <item>英国</item>
+        <item>德国</item>
+        <item>法国</item>
+        <item>俄罗斯</item>
+    </string-array>
+</resources>
