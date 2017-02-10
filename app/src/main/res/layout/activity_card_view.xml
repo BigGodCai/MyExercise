@@ -2,14 +2,14 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
+    android:id="@+id/activity_card_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.cfy.administrator.exercisecfy.activity.MyRecycleViewActivity">
+    tools:context="com.cfy.administrator.exercisecfy.activity.CardViewActivity">
 
     <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/recycle"
         ></android.support.v7.widget.RecyclerView>
 </RelativeLayout>

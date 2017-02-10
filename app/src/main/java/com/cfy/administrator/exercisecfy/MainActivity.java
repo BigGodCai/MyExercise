@@ -12,6 +12,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.cfy.administrator.exercisecfy.activity.CardViewActivity;
+import com.cfy.administrator.exercisecfy.activity.MyRecycleViewActivity;
 import com.cfy.administrator.exercisecfy.activity.MySpinnerActivity;
 
 import java.util.ArrayList;
@@ -63,6 +65,7 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
         mList.add("#汇总页面");
         mList.add("RecycleView");
         mList.add("spinner三级联动");
+        mList.add("CardView");
     }
 
     @Override
@@ -74,6 +77,10 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
 
         if(mList.get(i).equals("spinner三级联动")){
             intent.setClass(this,MySpinnerActivity.class);
+            startActivity(intent);
+        }
+        if(mList.get(i).equals("CardView")){
+            intent.setClass(this,CardViewActivity.class);
             startActivity(intent);
         }
     }
